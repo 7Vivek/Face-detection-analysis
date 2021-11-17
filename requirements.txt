@@ -1,0 +1,5 @@
+numpy~=1.19.5
+streamlit~=0.87.0
+opencv-python~=4.5.3.56
+deepface~=0.0.67
+pillow~=8.2.0
