@@ -47,9 +47,9 @@ def main():
     activiteis = ["Home", "Analyze Face", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Mohammad Juned Khan    
-            Email : Mohammad.juned.z.khan@gmail.com  
-            [LinkedIn] (https://www.linkedin.com/in/md-juned-khan)""")
+        """ Developed by Vivek     
+            Checkout complete project  
+            [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
@@ -61,9 +61,7 @@ def main():
         st.write("""
                  The application has two functionalities.
                  
-                 1. Face feature analysis such as emotion, gender, age and race.
-                 
-                 2. Face detection using live web cam feed.""")
+                 1. Face feature analysis such as emotion, gender, age and race.""")
     elif choice == "Analyze Face":
         st.subheader("Analyze facial features such as emotion, age, gender and race.")
         image_file = st.file_uploader("Upload image you want to analyze", type=['jpg', 'png', 'jpeg'])
