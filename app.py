@@ -48,6 +48,7 @@ def main():
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
         """ Developed by [Vivek] (https://github.com/7Vivek)
+        
             Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
@@ -60,6 +61,7 @@ def main():
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
                  Application Functionalities.
+                 
                  1. Face feature analysis such as emotion, gender, age and race.""")
     elif choice == "Analyze Face":
         st.subheader("Analyze facial features such as emotion, age and gender.")
