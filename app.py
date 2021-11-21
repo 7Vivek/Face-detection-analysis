@@ -43,7 +43,7 @@ def detect_web(image):
 
 def main():
     # Face Analysis Application #
-    st.title("Face Detection and Analysis Application")
+    st.markdown("<h1 style='text-align: center;'>Face Detection and Analysis </h1>", unsafe_allow_html=True)
     activiteis = ["Home", "Analyze Face", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
@@ -91,6 +91,7 @@ def main():
                 #st.write("Click on Analyze image ")
 
     elif choice == "About":
+        st.image('https://cdn.dribbble.com/users/897821/screenshots/14647572/media/5776fd878d27d05d43a864c0d3e5389c.png?compress=1&resize=900x600',use_column_width=True)
         st.subheader("About this app")
         html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
                                     <h4 style="color:white;text-align:center;">
@@ -101,7 +102,7 @@ def main():
 
         html_temp4 = """
                              		<div style="background-color:#98AFC7;padding:10px">
-                             		<h4 style="color:white;text-align:center;">This Application is developed by Mohammad Juned Khan using Streamlit Framework, Opencv and DeepFace library for demonstration purpose. If you're on LinkedIn and want to connect, just click on the link in sidebar and shoot me a request. If you have any suggestion or wnat to comment just write a mail at Mohammad.juned.z.khan@gmail.com. </h4>
+                             		<h4 style="color:white;text-align:center;">This Application is developed by Vivek Limbad using Streamlit Framework, Opencv and DeepFace library for demonstration purpose. If you're on LinkedIn and want to connect, just click on the link in sidebar and shoot me a request. If you have any suggestion or want to comment just write a mail at viveklimbad1010@gmail.com. </h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                              		</div>
                              		<br></br>
