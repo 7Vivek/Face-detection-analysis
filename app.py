@@ -52,7 +52,7 @@ def main():
         """ Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
-        html_temp_home1 = """<div style="background-color:##36454F;padding:10px">
+        html_temp_home1 = """<div style="background-color:#495D6A;padding:10px">
                                             <h4 style="color:white;text-align:center;">
                                             Face detection and Face feature analysis application using OpenCV, DeepFace and Streamlit.</h4>
                                             </div>
