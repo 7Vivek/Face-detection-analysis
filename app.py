@@ -93,7 +93,7 @@ def main():
 
     elif choice == "About":
         st.subheader("About this app")
-        html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
+        html_temp_about1= """<div style="background-color:#1E2839;padding:10px">
                                     <h4 style="color:white;text-align:center;">
                                     Face detection and Face feature analysis application using OpenCV, DeepFace and Streamlit.</h4>
                                     </div>
@@ -101,7 +101,7 @@ def main():
         st.markdown(html_temp_about1, unsafe_allow_html=True)
 
         html_temp4 = """
-                             		<div style="background-color:#98AFC7;padding:10px">
+                             		<div style="background-color:#283347;padding:10px">
                              		<h4 style="color:white;text-align:center;">This Application is developed by Vivek Limbad using Streamlit Framework, Opencv and DeepFace library for demonstration purpose. If you have any suggestion or want to comment just write a mail at viveklimbad1010@gmail.com. </h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting </h4>
                              		</div>
