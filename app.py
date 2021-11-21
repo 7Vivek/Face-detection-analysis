@@ -47,10 +47,9 @@ def main():
     activiteis = ["Home", "Analyze Face", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by [Vivek] (https://github.com/7Vivek)
-        
-        
-            Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
+        """ Developed by [Vivek] (https://github.com/7Vivek)""")
+    st.sidebar.markdown(
+        """ Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
