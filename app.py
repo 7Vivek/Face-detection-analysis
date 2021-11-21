@@ -49,6 +49,7 @@ def main():
     st.sidebar.markdown(
         """ Developed by [Vivek] (https://github.com/7Vivek)
         
+        
             Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
