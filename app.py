@@ -57,7 +57,7 @@ def main():
                                             Face detection and Face feature analysis application using OpenCV, DeepFace and Streamlit.</h4>
                                             </div>
                                             </br>"""
-        st.image('https://cdn.dribbble.com/users/1116528/screenshots/6783134/_3.gif',use_column_width=True)
+        st.image('https://miro.medium.com/max/600/1*4Tr0FOsdUgkF32T3mdu6pg.gif',use_column_width=True)
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
                  The application has two functionalities.
