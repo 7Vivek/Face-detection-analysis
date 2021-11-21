@@ -102,7 +102,7 @@ def main():
 
         html_temp4 = """
                              		<div style="background-color:#98AFC7;padding:10px">
-                             		<h4 style="color:white;text-align:center;">This Application is developed by Vivek Limbad using Streamlit Framework, Opencv and DeepFace library for demonstration purpose. If you're on LinkedIn and want to connect, just click on the link in sidebar and shoot me a request. If you have any suggestion or want to comment just write a mail at viveklimbad1010@gmail.com. </h4>
+                             		<h4 style="color:white;text-align:center;">This Application is developed by Vivek Limbad using Streamlit Framework, Opencv and DeepFace library for demonstration purpose. If you have any suggestion or want to comment just write a mail at viveklimbad1010@gmail.com. </h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting </h4>
                              		</div>
                              		<br></br>
