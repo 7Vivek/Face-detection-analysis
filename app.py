@@ -44,7 +44,7 @@ def detect_web(image):
 def main():
     # Face Analysis Application #
     st.title("Face Detection and Analysis Application")
-    activiteis = ["Home", "Analyze Face", "Webcam Face Detection", "About"]
+    activiteis = ["Home", "Analyze Face", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
         """ Developed by Mohammad Juned Khan    
@@ -63,10 +63,7 @@ def main():
                  
                  1. Face feature analysis such as emotion, gender, age and race.
                  
-                 2. Face detection using live web cam feed.
-                 
-                 Future Scope - In future we will be adding real time age, gender and emotion detection using own CNN 
-                 model with Webcam live feed.""")
+                 2. Face detection using live web cam feed.""")
     elif choice == "Analyze Face":
         st.subheader("Analyze facial features such as emotion, age, gender and race.")
         image_file = st.file_uploader("Upload image you want to analyze", type=['jpg', 'png', 'jpeg'])
@@ -96,24 +93,6 @@ def main():
                 pass
                 #st.write("Click on Analyze image ")
 
-
-    elif choice == "Webcam Face Detection":
-        st.header("Webcam Live Feed")
-        run = st.checkbox('Run')
-        FRAME_WINDOW = st.image([])
-        camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-        while run:
-            # Reading image from video stream
-            _, img = camera.read()
-            # Call method we defined above
-            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-            img, a = detect_web(img)
-            # st.image(img, use_column_width=True)
-            FRAME_WINDOW.image(img)
-
-            #analyze test
-            #live_result = analyze_image(img)
-           # st.write(live_result["dominant_emotion"])
     elif choice == "About":
         st.subheader("About this app")
         html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
