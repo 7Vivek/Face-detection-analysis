@@ -62,7 +62,7 @@ def main():
         st.write("""
                  Application Functionalities.
                  
-                 1. Face feature analysis such as emotion, gender, age and race.""")
+                 1. Face feature analysis such as emotion, gender and age.""")
     elif choice == "Analyze Face":
         st.subheader("Analyze facial features such as emotion, age and gender.")
         image_file = st.file_uploader("Upload image you want to analyze", type=['jpg', 'png', 'jpeg'])
