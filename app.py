@@ -6,6 +6,8 @@ from deepface import DeepFace as dfc
 from PIL import Image
 import os
 
+st.set_page_config(page_title='Face-detection-analysis', page_icon=None, layout='centered', initial_sidebar_state='auto')
+
 # function to load image
 try:
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -37,9 +39,7 @@ def detect_web(image):
     for (x, y, w, h) in faces:
         cv2.rectangle(img=image, pt1=(x, y), pt2=(
             x + w, y + h), color=(255, 0, 0), thickness=2)
-
     return image, faces
-
 
 def main():
     # Face Analysis Application #
@@ -48,8 +48,7 @@ def main():
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
         """ Developed by Vivek     
-            Checkout complete project  
-            [here] (https://github.com/7Vivek/Face-detection-analysis)""")
+            Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
@@ -60,7 +59,7 @@ def main():
         st.image('https://cdn.dribbble.com/users/1373613/screenshots/5510801/media/b82469d51c432c2ff65c0158334cfabf.gif',use_column_width=True)
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
-                 The application has two functionalities.
+                 Application Functionalities.
                  
                  1. Face feature analysis such as emotion, gender, age and race.""")
     elif choice == "Analyze Face":
