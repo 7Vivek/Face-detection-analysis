@@ -85,10 +85,9 @@ def main():
                 result = analyze_image(img)
                 # st.write(result)
                 st.write("Analysis summary")
-                st.write("your face emotion is ", result["dominant_emotion"], "in image.")
+                st.write("Face emotion is ", result["dominant_emotion"], "in image.")
                 st.write("Gender recognized as", result["gender"], "in image.")
-                st.write("Your age is", result["age"], "years.")
-                st.write("It look like you belongs to", result["dominant_race"], "race.")
+                st.write("Age is", result["age"], "years.")
             else:
                 pass
                 #st.write("Click on Analyze image ")
