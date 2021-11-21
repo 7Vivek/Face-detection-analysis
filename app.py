@@ -56,6 +56,7 @@ def main():
                                             <h4 style="color:white;text-align:center;">
                                             Face detection and Face feature analysis application using OpenCV, DeepFace and Streamlit.</h4>
                                             </div>
+        st.image('https://freepngimg.com/download/keyboard/6-2-keyboard-png-file.png',use_column_width=True)
                                             </br>"""
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
