@@ -47,7 +47,7 @@ def main():
     activiteis = ["Home", "Analyze Face", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Vivek     
+        """ Developed by [Vivek] (https://github.com/7Vivek)
             Checkout complete project [here] (https://github.com/7Vivek/Face-detection-analysis)""")
     # C0C0C0
     if choice == "Home":
@@ -60,10 +60,9 @@ def main():
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
                  Application Functionalities.
-                 
                  1. Face feature analysis such as emotion, gender, age and race.""")
     elif choice == "Analyze Face":
-        st.subheader("Analyze facial features such as emotion, age, gender and race.")
+        st.subheader("Analyze facial features such as emotion, age and gender.")
         image_file = st.file_uploader("Upload image you want to analyze", type=['jpg', 'png', 'jpeg'])
 
         if image_file is not None:
@@ -91,7 +90,6 @@ def main():
                 #st.write("Click on Analyze image ")
 
     elif choice == "About":
-        st.image('https://cdn.dribbble.com/users/897821/screenshots/14647572/media/5776fd878d27d05d43a864c0d3e5389c.png?compress=1&resize=900x600',use_column_width=True)
         st.subheader("About this app")
         html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
                                     <h4 style="color:white;text-align:center;">
