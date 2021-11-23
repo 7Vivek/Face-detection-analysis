@@ -12,6 +12,8 @@
 ![Relative date](https://img.shields.io/date/1637653455?color=1c80f6)
 ![GitHub top language](https://img.shields.io/github/languages/top/7Vivek/Face-detection-analysis?color=ffff66)
 ![GitHub language count](https://img.shields.io/github/languages/count/7Vivek/Face-detection-analysis?color=04e2b5)
+ 
+ <img align = "center" src="https://user-images.githubusercontent.com/77670138/142988311-9627a5de-10e4-47a5-b98b-28ea1075e571.png" style="width:1000px;height:500px;"></img>    
   
   </div>
 
