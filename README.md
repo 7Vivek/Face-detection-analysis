@@ -13,10 +13,11 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/7Vivek/Face-detection-analysis?color=ffff66)
 ![GitHub language count](https://img.shields.io/github/languages/count/7Vivek/Face-detection-analysis?color=04e2b5)
   
+https://user-images.githubusercontent.com/77670138/147404183-1a025984-adee-473f-9ac4-02f7cc419a8b.mp4
+
 <h2 align = "center"> 🎬 Project Demo </h2>
 <h3 align = "center"> ✔ Application is hosted on Streamlit. You can see the <a href="https://share.streamlit.io/7vivek/face-detection-analysis/main/app.py">Demo</a></h3>
 
-https://user-images.githubusercontent.com/77670138/147403789-f8992935-5d88-4734-9d5d-717318a1a8d2.mp4
 
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
 [![Streamlit App](https://img.shields.io/badge/Open_in_Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://share.streamlit.io/7vivek/face-detection-analysis/main/app.py)
